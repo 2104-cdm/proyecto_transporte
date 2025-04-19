@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post"><!-- el action se usa para indicar la ruta donde va a ir os datos enese caso se llama /(agrega lo que  quieras)
+    el method se usa para decirle como lo va a enviar usamos el post para que no se valla via la url como el get y los datos puedan ser vistos-->
+        <label for="nombre">Nombre <!--  lo nombramos para que los datos se vinculen mediante el id con el input -->
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="correo">Correo <!--  lo nombramos para que los datos se vinculen mediante el id con el input -->
+            <input type="text" id="correo" name="correo" placeholder="Ingrese el correo del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="numero">Numero de telefono <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
+            <input type="text" id="correo" name="correo" placeholder="Ingrese el correo del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+    </form>
+</body>
+</html>
