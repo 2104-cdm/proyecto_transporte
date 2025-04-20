@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
 </head>
 <body>
     <form action="/" method="post"><!-- el action se usa para indicar la ruta donde va a ir os datos enese caso se llama /(agrega lo que  quieras)
     el method se usa para decirle como lo va a enviar usamos el post para que no se valla via la url como el get y los datos puedan ser vistos-->
-        <label for="nombre">Nombre <!--  lo nombramos para que los datos se vinculen mediante el id con el input -->
+        <label for="nombre">Nombre <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
             <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre del usuario" required>
             <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
         </label>
         <br>
-        <label for="correo">Correo <!--  lo nombramos para que los datos se vinculen mediante el id con el input -->
+        <label for="correo">Correo <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
             <input type="text" id="correo" name="correo" placeholder="Ingrese el correo del usuario" required>
             <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
         </label>
         <br>
         <label for="numero">Numero de telefono <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
-            <input type="text" id="correo" name="correo" placeholder="Ingrese el correo del usuario" required>
+            <input type="number" id="numero" name="numero" placeholder="Ingrese el numero del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="cedula">Cedula <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
+            <input type="number" id="cedula" name="cedula" placeholder="Ingrese la cedula del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="direccion">Direccion <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
+            <input type="text" id="direccion" name="direccion" placeholder="Ingrese la direccion del usuario" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="tipo">Tipo de cliente <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
+            <input type="text" id="tipo" name="tipo" placeholder="Personal o Empresa" required>
+            <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
+        </label>
+        <br>
+        <label for="fecha">Fecha de registro <!--  lo nombramos en el for para que los datos se vinculen mediante el id con el input -->
+            <input type="date" id="fecha" name="fecha"required>
             <!-- usamos required para hacer que el campo sea obligatorio y el name lo usamos para decirle al servidor como guardarlo-->
         </label>
         <br>
