@@ -25,3 +25,4 @@ app.listen(PORT, () => {
 
 console.log(base_datos); // mostramos en consola el array base_datos, que al inicio está vacío
 // se completa el proceso
+// hola
