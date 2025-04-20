@@ -24,3 +24,4 @@ app.listen(PORT, () => {
 }); // iniciamos el servidor en el puerto que definimos arriba y mostramos un mensaje en consola cuando está corriendo
 
 console.log(base_datos); // mostramos en consola el array base_datos, que al inicio está vacío
+// se completa el proceso
