@@ -25,4 +25,4 @@ app.listen(PORT, () => {
 
 console.log(base_datos); // mostramos en consola el array base_datos, que al inicio está vacío
 // se completa el proceso
-// hola
+// este archivo sirve como servidor para el puerto 3000 
